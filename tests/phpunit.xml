@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit bootstrap="../vendor/autoload.php">
+    <php>
+        <var name="MC_HOST_0" value="memcached-11211" />
+        <var name="MC_PORT_0" value="11211" />
+        <var name="MC_HOST_1" value="memcached-11212" />
+        <var name="MC_PORT_1" value="11211" />
+    </php>
+</phpunit>
