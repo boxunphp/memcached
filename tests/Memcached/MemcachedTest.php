@@ -6,7 +6,7 @@
  * Time: 4:11 PM
  */
 
-namespace MemcachedTest;
+namespace Tests\Memcached;
 
 use All\Memcached\Memcached;
 use PHPUnit\Framework\TestCase;
@@ -22,8 +22,7 @@ class MemcachedTest extends TestCase
     {
         $config = [
             'servers' => [
-                ['host' => $GLOBALS['MC_HOST_0'], 'port' => $GLOBALS['MC_PORT_0']],
-                ['host' => $GLOBALS['MC_HOST_1'], 'port' => $GLOBALS['MC_PORT_1']],
+                ['host' => 'memcached-11211', 'port' => 11211],
             ],
             'connect_timeout' => 1000, //ms
         ];
